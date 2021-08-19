@@ -10,6 +10,8 @@
 
 3.2. это - ./DockerCli.exe -SwitchLinuxEngine
 
-3.3. это - dpcker-compose up
+3.3. cd "путь к папке с приложением"
+
+3.4. это - docker-compose up
 
 4. приложение работает! осталось ввести только http://localhost:5000/cats/* (* - число от 1 до 11)
