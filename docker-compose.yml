@@ -1,0 +1,12 @@
+web:
+ build: .
+ ports:
+   - "5000:5000"
+   - "27017:27017"
+ volumes:
+   - ./app:/usr/src/app/./app
+ links:
+   - mongodb
+
+mongodb:
+ image: mongo:3.2
