@@ -4,4 +4,8 @@
 
 2. https://hub.docker.com/repository/docker/danok1503/catsite2
 
-3. 
+3. Для начала нужно ввести команду docker login
+
+4. ввести это - cd "C:\Program Files\Docker\Docker"
+
+5. это - ./DockerCli.exe -SwitchLinuxEngine
