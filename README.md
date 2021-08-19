@@ -6,6 +6,10 @@
 
 3. Для начала нужно ввести команду docker login
 
-4. ввести это - cd "C:\Program Files\Docker\Docker"
+3.1. ввести это - cd "C:\Program Files\Docker\Docker"
 
-5. это - ./DockerCli.exe -SwitchLinuxEngine
+3.2. это - ./DockerCli.exe -SwitchLinuxEngine
+
+3.3. это - dpcker-compose up
+
+4. приложение работает! осталось ввести только http://localhost:5000/cats/* (* - число от 1 до 11)
